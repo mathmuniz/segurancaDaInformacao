@@ -27,8 +27,6 @@ document.getElementById("btnCripto").addEventListener("click", function (e) {
     }
     
         var fraseCriptografada = cifraCesar(fraseOriginal, input);
-        console.log("Texto cifrado: " + fraseCriptografada);
-
 
        document.getElementById("textCriptografado").innerHTML = fraseCriptografada;
 
