@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de Cesar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <h1>Cifra de Cesar</h1>
+                <div class="input-single">
+                    <input type="text" name="phrase" id="phrase" class="input" autocomplete="off" required>
+                    <label for="phrase">Frase Original</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="number" name="displacement" id="displacement" class="input" autocomplete="off" required>
+                    <label for="displacement">Deslocamento</label>
+                </div>
+
+                <div class="btn">
+                    <button id="btnCripto" class="btnCripto">Criptografar</button>
+                </div>
+                
+                <p id="textCriptografado" class="criptografado"></p>
+
+            </form>
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
